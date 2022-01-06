@@ -48,27 +48,30 @@ nav{
     margin-right: -2%;
     
 }
+.titulo{
+    position: absolute;
+    top: 489px;
+    left: 229px;
+}
 .titulo h3{
     
     font-size: 2.5rem;
-    
-    
     display: inline-block;
     color: white;
     
 }
 .titulo p{
-   
+    width: 342px;
     color: white;
-    font-size: 1.0rem;
+    font-size: 1.2rem;
     
     
 }
 .enviar{
     color: white;
-    
+    width: 125px;
     background-color: blue;
-   
+    height:61px;
     border: none;
     
 
@@ -80,10 +83,153 @@ nav{
     
     
     
+    
 }
 .imagem{
     width: 600px;
+    position: absolute;
+    top: 300px;
+    left: 1036px;
+    
    
 }
+ .FB{
+     letter-spacing: 3px;
+     font-size: 1.8rem;
+     position: absolute;
+     top: 1234px;
+     color: rgb(98, 2, 207);
+     left: 229px;
+ }
+ .subtitle{
+    position: absolute;
+    top: 1300px;
+    left: 229px;
+ }
+ .subtitle h3{
+     color: white;
+ }
 
+ .subtitle p{
+     color: white;
+ }
+ .iconone{
+    position: absolute;
+    top: 1300px;
+    left: 1000px;
+ }
+ .iconone i{
+     font-size: 30px;
+    color: rgb(98, 2, 207);
+ }
 
+.iconone h2{
+    color:white
+}
+.iconone p {
+    color: white;
+}
+.icontwo{
+    position: absolute;
+    top: 1300px;
+    left: 1500px
+}
+.icontwo i{
+    font-size: 30px;
+    color: red;
+}
+.icontwo h2{
+    color:white
+}
+.icontwo p{
+    color: white;
+}
+.iconthree{
+    position: absolute;
+    top: 1500px;
+    left: 1000px;
+}
+.iconthree i {
+    font-size: 30px;
+    color: green;
+}
+.iconthree h2{
+    color: white;
+}
+.iconthree p{
+    color: white;
+}
+.iconfour{
+    position: absolute;
+    top: 1500px;
+    left: 1500px
+}
+.iconfour i{
+    font-size: 30px;
+    color: yellow;
+}
+.iconfour h2{
+    color: white;
+}
+.iconfour p{
+    color: white;
+}
+.titulop{
+    color: rgb(98, 2, 207);
+    letter-spacing: 2.3px;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 2000px;
+    left: 867px;
+}
+.sub-work{
+    color: white;
+    font-size: 2.0rem;
+    position: absolute;
+    top: 2036px;
+    left: 642px;
+}
+.game1{
+    background: url('https://cdn1.epicgames.com/salesEvent/salesEvent/940a3561-eebf-4c61-8079-69da737bc4b4_2560x1440-9070fe88ec21432ce9234327f3164eb5')no-repeat;
+    width: 400px;
+    height: 612px;
+    background-position: center;
+    position: absolute;
+    top: 2162px;
+    left: 342px;
+    border-radius: 25px;
+}
+.boxone{
+    position: absolute;
+    top: 2788px;
+    left: 342px;
+}
+.boxone i{
+    background-color: rgba(255, 255, 0, 0.664);
+    color: white;
+    width: 31px;
+    height: 27px;
+    border-radius: 5px;
+    position: absolute;
+    left: 361px;
+}
+.boxone h4{
+    color: white;
+    font-size: 1.8rem;
+}
+.boxone p{
+    color: white;
+    font-weight: bolder;
+
+}
+.game2{
+    background: url('https://d3ugyf2ht6aenh.cloudfront.net/stores/456/540/products/294189896171821-0918e06d59e2695cb216374131577817-480-0.jpg')no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 612px;
+    position: absolute;
+    top: 2162px;
+    left: 847px;
+    background-size: cover;
+    border-radius: 25px;
+}
