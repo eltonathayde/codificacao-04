@@ -23,7 +23,7 @@
     background-color: turquoise;
     width: 300px;
     height: 600px;
-    border-radius: 20px;
+    border-radius: 50px 50px 30px 30px;
     margin: 25px;
     
 }
@@ -31,38 +31,180 @@
     background-color: blue;
     width: 300px;
     height: 600px;
-    border-radius: 20px;
+    border-radius: 50px 50px 30px 30px;
     margin: 25px;
 }.plano3-back{
     background-color: rgba(255, 166, 0, 0.849);
     width: 300px;
     height: 600px;
-    border-radius: 40px;
+    border-radius: 50px 50px 30px 30px;
     margin: 25px
 }
 .plano1{
     background-color: white;
     width: 300px;
-    height: 500px;
-    border-radius: 40px;
+    height: 475px;
+    border-radius: 75px 75px 50px 50px;
     margin: 25px;
     position: absolute;
+    top: 97px;
 }
 .plano2{
     background-color: white;
     width: 300px;
-    height: 500px;
-    border-radius: 40px;
-    margin: 25px;
+    height: 475px;
+    border-radius: 75px 75px 50px 50px;
+    margin: 45px;
     position: absolute;
-    left: 350px;
+    left: 332px;
+    top: 70px;
 }
 .plano3{
     background-color: white;
     width: 300px;
-    height: 500px;
-    border-radius: 40px;
+    height: 475px;
+    border-radius:75px 75px 50px 50px ;
     margin: 25px;
     position: absolute;
     left: 701px;
+    top: 94px;
+}
+.white{
+    background-color: white;
+    padding: 63px;
+    border-radius: 70px;
+    position: absolute;
+    top: 70px;
+    left: 116px;
+}
+
+.plano1-icon{
+    padding: 30px;
+    border-radius: 70px;
+    border: 5px solid  turquoise ;
+    position: absolute;
+    top: 82px;
+    left: 130px;
+
+}
+#paper{
+    color: turquoise;
+    font-size: 2rem;
+   
+    
+}
+.branco{
+    background-color: white;
+    padding: 63px;
+    border-radius: 70px;
+    position: absolute;
+    left: 465px;
+    top: 62px;
+}
+.plano2-icon{
+    padding: 30px;
+    border-radius: 70px;
+    border:  5px solid blue;
+    position: absolute;
+    left: 474px;
+    top: 71px;
+}
+#daimond{
+    color: blue;
+    font-size: 2rem;
+}
+.blanco{
+    background-color: white;
+    padding: 63px;
+    border-radius: 70px;
+    position: absolute;
+    left: 813px;
+    top: 54px;
+}
+.plano3-icon{
+    padding: 30px;
+    border-radius: 70px;
+    border: 5px solid orange;
+    position: absolute;
+    left:825px ;
+    top: 61px;
+}
+#rocket {
+    color: orange;
+    font-size: 2rem;
+}
+.PLB{
+    position: relative;
+    top: 69px;
+    left: 0px;
+    text-align: center;
+}
+.PLB h3{
+    font-size: 1.5rem;
+    margin-bottom: -7px;
+}
+.PLB h2{
+   color:  turquoise;
+}
+.PLM{
+    position: absolute;
+    top: 79px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+
+}
+.PLM h3{
+    font-size: 1.5rem;
+    margin-bottom: -7px;
+}
+.PLM h2{
+    color:blue
+}
+.PVIP{
+    position: absolute;
+    top: 79px;
+    left: 0px;
+    text-align: center;
+    width: 100%;
+}
+.PVIP h3{
+    font-size: 1.5rem;
+    margin-bottom: -7px;
+}
+.PVIP h2{
+    color: orange;
+}
+.PLB i, .PLM i , .PVIP i{
+    color:green;
+    position: relative;
+    left: -80px;
+  
+}
+#diferente{
+    color:red
+}
+.PLB input, .PLM input , .PVIP input{
+    width: 114px;
+    height: 43px;
+    border-radius: 8px;
+    margin-top: 15px;
+    color: white;
+}
+.PLB input{
+    background-color: turquoise;
+    border: none;
+}
+.PLM input{
+    background-color:blue;
+    border: none;
+}
+.PVIP input{
+    background-color: orange;
+    border: none;
+}
+.dois , .quatro{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0px;
 }
