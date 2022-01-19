@@ -1,0 +1,133 @@
+#localizacao-contato{
+    background-color: rgb(17, 17, 17);
+    width: 360px;
+    height: 600px;
+    align-content: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+#branco-contato{
+    background-color: white;
+    width: 900px;
+    height: 600px;
+    align-content: center;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#cabeca-contato{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    height: auto;
+    margin: 30px 90px;
+}
+
+#localizacao-contato h3{
+    color: white;
+    width: 300px;
+    height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 25px;
+}
+
+#localizacao-contato h4{
+    color: white;
+    height: 5px;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 25px;
+}
+
+#emoteum-contato{
+ color: white;
+}
+
+#tudo-contato{
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    margin: 0 auto;
+}
+
+#branco-contato h3{
+    color: black;
+    height: 0px;
+    width: 280px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 18px;
+}
+
+#branco-contato h4{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px;
+    font-weight: 500;
+    height: 0px;
+}
+
+#nome-contato{  
+    font-weight: 100;
+    font-size: 20px;
+    border-color: rgb(196, 194, 191);
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 5px;
+    width: 370px; 
+}
+
+#email-contato{  
+    font-weight: 100;
+    font-size: 20px;
+    border-color: rgb(196, 194, 191);
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 5px;
+    width: 370px; 
+}
+
+#texto-contato{  
+    font-weight: 100;
+    font-size: 20px;
+    border-color: rgb(196, 194, 191);
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 10px 20px;
+    padding: 5px;
+    width: 350px; 
+}
+
+#nome-sobre{
+    display: inline-flex;
+}
+
+#email-telefone{
+    display: inline-flex;
+}
+
+#enviar-contato{
+    background-color: black;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    border-radius: 20px;
+    margin:40px 27px; 
+    padding: 10px 380px;
+}
+
+.mensagem-contato{
+    width: 800px !important;
+    height: 150px;
+    /* margin: 0 !important; */
+    padding: 0 !important;
+}
+
