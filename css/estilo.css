@@ -120,19 +120,17 @@ body {
 
 .cabecalho a:hover {
     transition: 0.7s all;
-    color: white;
-    box-shadow: 0px 5px 0px rgb(74, 8, 228);    
+    color: black; 
+    background-color: #fff;  
     margin: 5px;
     border-radius: 20px;
     text-decoration: none;
     text-transform: uppercase;
-    overflow: hidden;
     transition: 0.5s;
     margin-top: 40px;
     letter-spacing: 4px;
     padding: 10px 10px;
 }
-
 .menu{
     float: right;
 }
@@ -221,7 +219,7 @@ body {
     font: 500;
 }
 
-#paragrafo-um{
+#paragrafo-um , #paragrafo-dois , #paragrafo-tres{
     color: rgb(165, 164, 164);
     font-family: arial;
     width: 300px;
@@ -233,56 +231,28 @@ body {
     color: red;
 }
 
-#icone-dois {
+#icone-dois , #icone-tres ,#icone-quatro ,
+#paragrafo-quatro {
     color: white;
     font-family: arial;
     width: 400px;
     font: 500;
 }
 
-#paragrafo-dois{
-    color: rgb(165, 164, 164);
-    font-family: arial;
-    width: 300px;
-}
+
 
 #icone-tres i {
     font-size: 30px;
     color: greenyellow;
 }
 
-#icone-tres{
-    color: white;
-    font-family: arial;
-    width: 400px;
-    font: 500;
-}
 
-#paragrafo-tres{
-    color: rgb(165, 164, 164);
-    font-family: arial;
-    width: 300px;
-}
 
 #icone-quatro i {
     font-size: 30px;
     color: orange;
 }
 
-#icone-quatro{
-    color: white;
-    font-family: arial;
-
-    width: 400px;
-
-    font: 500;
-}
-
-#paragrafo-quatro{
-    color: rgb(165, 164, 164);
-    font-family: arial;
-    width: 300px;
-}
 
 #imagens-portfolio{
     display: flex;
@@ -355,25 +325,14 @@ body {
 #imagem-portfolio-tres {
     width: 300px;
     padding: 0;
-
     height: 400px;
-
     border-radius: 20px;
     background-repeat: no-repeat;
     background: transparent url('https://overwatch2-static.playoverwatch.com/68a9b3f11e33114ffbb29df0a331d5aa61f4b4c9/static/images/share.jpg');
     background-position: center;
 }
 
-#portfolio-font-um{
-    color: white;
-    font-family: arial;
-    width: 400px;
-    display: inline-block;
-    position: relative;
-    left: 65px;
-}
-
-#portfolio-font-dois{
+#portfolio-font-um ,#portfolio-font-dois, #portfolio-font-tres{
     color: white;
     font-family: arial;
     width: 400px;
@@ -382,14 +341,6 @@ body {
     left: 66px;
 }
 
-#portfolio-font-tres{
-    color: white;
-    font-family: arial;
-    width: 400px;
-    display: inline-block;
-    position: relative;
-    left: 66px;
-}
 
 #emote-um{
     color: white;
@@ -409,11 +360,10 @@ body {
     left: -69px;                    
 }
 
-#emote-dois{
+#emote-dois ,#emote-tres{
     color: white;
     width: 10px;
     height: 10px;
-
     background-color: orange;
     display: inline-block;
     padding: 5px 10px;
@@ -427,44 +377,16 @@ body {
     left: -69px;                   
 }
 
-#emote-tres{
-    color: white;
-    width: 10px;
-    height: 10px;
 
-    background-color: orange;
-    display: inline-block;
-    padding: 5px 10px ;
-    font-weight: 800;
-    font-size: 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    overflow: hidden;
-    letter-spacing: 4px;  
-    position: relative;
-    left: -69px;                  
-}
 
-#paragrafo-portfolio-um{
+
+#paragrafo-portfolio-um ,#paragrafo-portfolio-dois ,#paragrafo-portfolio-tres{
     color: rgb(165, 164, 164);
     font-family: arial;
     width: 300px;
 
 }
 
-#paragrafo-portfolio-dois{
-    color: rgb(165, 164, 164);
-    font-family: arial;
-    width: 300px;
-
-}
-
-#paragrafo-portfolio-tres{
-    color: rgb(165, 164, 164);
-    font-family: arial;
-    width: 300px;
-
-}
 
 #roda-pe-font-um{
     color: rgb(124, 91, 241);
@@ -538,7 +460,8 @@ body {
     margin-bottom: -10px;
 }
 
-#paragrafo-roda-pe-um{
+#paragrafo-roda-pe-um , #paragrafo-roda-pe-dois , 
+#paragrafo-roda-pe-tres{
     color: whitesmoke;
     font-family: arial;
     width: 330px;
@@ -554,27 +477,11 @@ body {
         align-items: center;
     align-content: center;
     width: 100%;
-    /* display: flex; */
     text-align: center;
     margin: 0 auto;
     flex-wrap: nowrap;
 }
 
-#paragrafo-roda-pe-dois{
-    color: whitesmoke;
-    font-family: arial;
-    width: 330px;
-   
-    font-size: 13px;
-}
-
-#paragrafo-roda-pe-tres{
-    color: whitesmoke;
-    font-family: arial;
-    width: 330px;
-    
-    font-size: 13px;
-}
 
 #emote-cargo-um{
     color: rgb(247, 236, 88);
@@ -636,41 +543,16 @@ body {
     justify-content: center;
 }
 
-#imagem-time-um{
+#imagem-time-um ,
+#imagem-time-dois ,#imagem-time-tres{
     width: 300px;
     padding: 0;
     height: 400px;
     border-radius: 20px;
 }
 
-#imagem-time-dois{
-    width: 300px;
-    padding: 0;
-    height: 400px;
-    border-radius: 20px;
-}
 
-#imagem-time-tres{
-    width: 300px;
-    padding: 0;
-    height: 400px;
-    border-radius: 20px;
-}
-
-#nome-time-um{
-    color: white;
-    font-family: arial;
-    width: 400px;
-    font: 500;
-}
-
-#nome-time-dois{
-    color: white;
-    font-family: arial;
-    width: 400px;
-    font: 500;
-}
-
+#nome-time-um , #nome-time-dois ,
 #nome-time-tres{
     color: white;
     font-family: arial;
@@ -678,24 +560,15 @@ body {
     font: 500;
 }
 
-#cargo-time-um{
-    color: rgb(165, 164, 164);
-    font-family: arial;
-    margin-top: -10px;
-}
 
-#cargo-time-dois{
-    color: rgb(165, 164, 164);
-    font-family: arial;
-    margin-top: -10px;
-}
-
+#cargo-time-um , 
+#cargo-time-dois ,
 #cargo-time-tres{
     color: rgb(165, 164, 164);
     font-family: arial;
     margin-top: -10px;
-
 }
+
 
 #roda-pe-time{
     color: rgb(124, 91, 241);
@@ -769,7 +642,10 @@ body {
     
 }
 
-#casa h4{
+#casa h4 ,
+#pagina h4,
+#redes h4,
+#portfolio-fim h4{
     color:white;
     font-family: 'Helvetica Neue',;
     color: gray;
@@ -791,12 +667,6 @@ body {
     
 }
 
-#pagina h4{
-    color:white;
-    font-family: 'Helvetica Neue',;
-    color: gray;
-    height: 5px;
-}
 
 #redes{
     align-items: center;
@@ -812,14 +682,6 @@ body {
     font-size: 20px;
     
 }
-
-#redes h4{
-    color:white;
-    font-family: 'Helvetica Neue',;
-    color: gray;
-    height: 5px;
-}
-
 #portfolio-fim{
     align-items: center;
     align-content: center;
@@ -835,9 +697,3 @@ body {
     
 }
 
-#portfolio-fim h4{
-    color:white;
-    font-family: 'Helvetica Neue',;
-    color: gray;
-    height: 5px;
-}
